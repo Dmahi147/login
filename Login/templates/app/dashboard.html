@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}
+	Dashboard
+{% endblock %}
+
+{% block content %}
+
+	{% if messages %}
+
+	    {% for message in messages %}
+
+		<!--Panel-->
+		<div class="card border-success mb-3">
+		    <div class="card-header text-danger">
+		        <p class="card-title">{{ message }}</p>
+		    </div>
+		</div>
+		<!--/.Panel-->
+	    
+	    {% endfor %}
+
+	{% endif %}
+<div class="container mt-4">
+    <div class="row">
+
+        <div class="col-md-3"></div>
+
+        <div class="col-md-6 mt-5">
+
+			<form class="text-center border border-secondary p-5" >
+
+				<h1 class="mt-5 text-center">Welcome {{ request.user }}</h1>
+ 				<p class="text-left mt-5">Bio: {{ user.profile.bio }}</p>
+				<p class="text-left">Joined: {{ user.profile.timestamp }}</p>
+
+			</form>
+		</div>
+	</div>
+</div>
+
+{% endblock content %}

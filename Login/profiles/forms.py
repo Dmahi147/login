@@ -69,13 +69,3 @@ class SignUpForm(UserCreationForm):
     class Meta:
         model = User
         fields = ('username', 'email', 'password1', 'password2', 'location')
-
-'''
-class EditProfileForm(UserChangeForm):
-
-    class Meta:
-        model = User
-        fields = (
-            'bio',
-            'location',
-        )'''

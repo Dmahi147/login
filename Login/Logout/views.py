@@ -34,3 +34,4 @@ def dashboard_view(request):
 
 def home_view(request):
     return render(request, 'app/home.html')
+

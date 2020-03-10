@@ -10,6 +10,7 @@ from django.utils.encoding import force_bytes, force_text
 from django.contrib.auth import get_user_model
 
 from .forms import SignUpForm
+'''EditProfileForm'''
 from .models import Profile
 from .utils import get_location_from_ip
 from .tokens import account_activation_token

@@ -1,0 +1,54 @@
+2020-02-16 12:42:22,771    : -----Naukri.qa.py Script Run Begin-----
+2020-02-16 12:42:22,772    : Chrome installation/driver not found
+2020-02-16 12:42:22,772    : Error : <class 'AttributeError'> : 'NoneType' object has no attribute 'close' at Line 124.
+2020-02-16 12:42:22,772    : Error quitting: <class 'AttributeError'> : 'NoneType' object has no attribute 'quit' at Line 133.
+2020-02-16 12:42:22,772    : -----Naukri.qa.py Script Run Ended-----
+
+2020-02-16 12:47:28,066    : -----Naukri.qa.py Script Run Begin-----
+2020-02-16 12:47:28,067    : Chrome installation/driver not found
+2020-02-16 12:47:28,067    : Error : <class 'AttributeError'> : 'NoneType' object has no attribute 'close' at Line 124.
+2020-02-16 12:47:28,067    : Error quitting: <class 'AttributeError'> : 'NoneType' object has no attribute 'quit' at Line 133.
+2020-02-16 12:47:28,068    : -----Naukri.qa.py Script Run Ended-----
+
+2020-02-16 12:52:48,522    : -----Naukri.qa.py Script Run Begin-----
+2020-02-16 12:52:48,522    : Chrome installation/driver not found
+2020-02-16 12:52:48,523    : Error : <class 'AttributeError'> : 'NoneType' object has no attribute 'close' at Line 125.
+2020-02-16 12:52:48,523    : Error quitting: <class 'AttributeError'> : 'NoneType' object has no attribute 'quit' at Line 134.
+2020-02-16 12:52:48,523    : -----Naukri.qa.py Script Run Ended-----
+
+2020-02-16 12:53:44,310    : -----Naukri.qa.py Script Run Begin-----
+2020-02-16 12:53:44,311    : Chrome installation/driver not found
+2020-02-16 12:53:44,311    : Error : <class 'AttributeError'> : 'NoneType' object has no attribute 'close' at Line 125.
+2020-02-16 12:53:44,311    : Error quitting: <class 'AttributeError'> : 'NoneType' object has no attribute 'quit' at Line 134.
+2020-02-16 12:53:44,312    : -----Naukri.qa.py Script Run Ended-----
+
+2020-02-16 12:56:02,397    : -----Naukri.qa.py Script Run Begin-----
+2020-02-16 12:56:02,398    : Error Updating Naukri Profile: <class 'NameError'> : name 'ChromePath' is not defined at Line 375.
+2020-02-16 12:56:02,398    : Error : <class 'AttributeError'> : 'NoneType' object has no attribute 'close' at Line 125.
+2020-02-16 12:56:02,398    : Error quitting: <class 'AttributeError'> : 'NoneType' object has no attribute 'quit' at Line 134.
+2020-02-16 12:56:02,398    : -----Naukri.qa.py Script Run Ended-----
+
+2020-02-16 12:58:58,179    : -----Naukri.qa.py Script Run Begin-----
+2020-02-16 12:58:58,180    : Error Updating Naukri Profile: <class 'TypeError'> : stat: path should be string, bytes, os.PathLike or integer, not NoneType at Line 375.
+2020-02-16 12:58:58,180    : Error : <class 'AttributeError'> : 'NoneType' object has no attribute 'close' at Line 125.
+2020-02-16 12:58:58,180    : Error quitting: <class 'AttributeError'> : 'NoneType' object has no attribute 'quit' at Line 134.
+2020-02-16 12:58:58,181    : -----Naukri.qa.py Script Run Ended-----
+
+2020-02-16 13:02:21,243    : -----Naukri.qa.py Script Run Begin-----
+2020-02-16 13:02:21,243    : Chrome installation/driver not found
+2020-02-16 13:02:21,243    : Error : <class 'AttributeError'> : 'NoneType' object has no attribute 'close' at Line 125.
+2020-02-16 13:02:21,244    : Error quitting: <class 'AttributeError'> : 'NoneType' object has no attribute 'quit' at Line 134.
+2020-02-16 13:02:21,244    : -----Naukri.qa.py Script Run Ended-----
+
+2020-02-16 13:04:26,722    : -----Naukri.qa.py Script Run Begin-----
+2020-02-16 13:04:26,723    : Chrome installation/driver not found
+2020-02-16 13:04:26,724    : Error : <class 'AttributeError'> : 'NoneType' object has no attribute 'close' at Line 125.
+2020-02-16 13:04:26,724    : Error quitting: <class 'AttributeError'> : 'NoneType' object has no attribute 'quit' at Line 134.
+2020-02-16 13:04:26,724    : -----Naukri.qa.py Script Run Ended-----
+
+2020-02-16 13:05:08,988    : -----Naukri.qa.py Script Run Begin-----
+2020-02-16 13:05:08,989    : Chrome installation/driver not found
+2020-02-16 13:05:08,990    : Error : <class 'AttributeError'> : 'NoneType' object has no attribute 'close' at Line 125.
+2020-02-16 13:05:08,990    : Error quitting: <class 'AttributeError'> : 'NoneType' object has no attribute 'quit' at Line 134.
+2020-02-16 13:05:08,991    : -----Naukri.qa.py Script Run Ended-----
+

@@ -6,7 +6,7 @@
 {% endblock %}
 
 {% block content %}
-	
+
 	<div class="text-left mt-5 container">
 		{% for field in form %}
 		    <p>
@@ -18,7 +18,7 @@
 		        {% for error in field.errors %}
 		          <p style="color: red">{{ error }}</p>
 		        {% endfor %}
-				<a role="button" class="btn btn-outline-dark" href="dashboard">submit</a>
+				<button type="submit">Submit</button>
 		    </p>
 		{% endfor %}
 	</div>

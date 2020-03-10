@@ -9,10 +9,15 @@ class Profile(models.Model):
     bio = models.CharField(max_length=50, blank=True)
     location = models.CharField(max_length=30)
     email_confirmed = models.BooleanField(default=False)
+    created_on = models.DateTimeField()
+
+    def __str__(self):
+        return self.user.username
 
 
-@receiver(post_save, sender=User)
-def update_user_profile(sender, instance, created, **kwargs):
-    if created:
-        Profile.objects.create(user=instance)
-    instance.profile.save()
+def update_user_profile(sender, **kwargs):
+    if kwargs['created']:
+        profile = Profile.objects.create(user=kwargs['instance'])
+
+
+post_save.connect(update_user_profile, sender=User)
